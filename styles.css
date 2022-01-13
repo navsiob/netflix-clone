@@ -18,6 +18,20 @@ body {
   background-position: 0 -44px;
   background-color: black;
   overflow-x: hidden;
+  height: 3859px;
+}
+#box {
+  width: 100vw;
+  height: 115vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+header,
+footer,
+section,
+aside,
+main {
+  position: relative;
+  bottom: 762px;
 }
 #ntfLogo {
   position: relative;
@@ -209,7 +223,7 @@ h3 {
 }
 aside {
   position: relative;
-  top: 200px;
+  bottom: 550px;
 }
 #faq {
   text-align: center;
@@ -246,7 +260,7 @@ aside > h3 {
 }
 footer {
   position: relative;
-  top: 400px;
+  bottom: 380px;
   left: 200px;
   height: 320px;
 }
