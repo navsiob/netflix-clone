@@ -26,9 +26,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
 }
 header,
-footer,
 section,
-aside,
 main {
   position: relative;
   bottom: 762px;
@@ -306,4 +304,181 @@ p ~ div a {
   font-size: 13px;
   position: relative;
   bottom: 280px;
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+  #ntfLogo {
+    position: relative;
+    top: 40px;
+    left: 45px;
+    height: 29px;
+    width: 108px;
+  }
+  #langstr1 {
+    position: relative;
+    top: 0px;
+    left: 420px;
+  }
+  #signIn {
+    position: relative;
+    bottom: 28px;
+    left: 540px;
+  }
+  #Intro {
+    max-width: 640px;
+    font-size: 15px;
+    margin: 140px 0 0 0;
+    font-size: 25.5px;
+  }
+  #emailPrg {
+    max-width: 470px;
+    margin: -10px 0 10px 90px;
+  }
+  #emailInput {
+    padding: 0px 10px;
+    font-size: 13px;
+    min-width: 500px;
+  }
+  #emailBtn {
+    border: 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 15px 0 0 7px;
+  }
+  .playcard1,
+  .playcard2 {
+    font-size: 20px;
+    line-height: 1.1;
+    padding: 45px;
+    text-align: center;
+    height: 600px;
+    position: relative;
+  }
+  #vedioTV {
+    width: 419px;
+    height: 234px;
+    position: relative;
+    left: 0px;
+    top: 50px;
+  }
+  #TV {
+    width: 574px;
+    height: 430px;
+    position: relative;
+    left: 0px;
+    bottom: 270px;
+  }
+  h1,
+  p {
+    position: relative;
+    z-index: 1;
+  }
+  #mobile {
+    width: 570px;
+    height: 430px;
+    position: relative;
+    bottom: 30px;
+    right: 0px;
+  }
+  #mobileOver {
+    width: 344px;
+    height: 68px;
+    margin: 0;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+  }
+  #mobileOverImg1 {
+    width: 51px;
+    height: 72px;
+    position: relative;
+    right: 150px;
+  }
+  #mobileOverImg2 {
+    width: 48px;
+    height: 60px;
+    position: relative;
+    bottom: 110px;
+    left: 150px;
+  }
+  #mobileOverPara1 {
+    font-weight: bold;
+    position: relative;
+    bottom: 60px;
+    left: -50px;
+  }
+  #mobileOverPara2 {
+    position: relative;
+    bottom: 60px;
+    left: -62px;
+  }
+  #vedioDevicePile {
+    width: 361px;
+    height: 204px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+  }
+  #devicePile {
+    width: 574px;
+    height: 430px;
+    position: relative;
+    left: 0px;
+    bottom: 220px;
+  }
+  #childrenImg {
+    width: 574px;
+    height: 430px;
+    position: relative;
+    top: 20px;
+    right: 0px;
+  }
+  aside {
+    position: relative;
+    bottom: 550px;
+  }
+  #faq {
+    font-size: 40px;
+    padding: 0px;
+  }
+  li {
+    position: relative;
+    left: 40px;
+  }
+  button,
+  span {
+    font-size: 20px;
+  }
+  button {
+    padding: 15px 20px;
+    width: 500px;
+  }
+  span {
+    width: 460px;
+    padding: 15px 20px;
+  }
+  footer {
+    position: relative;
+    bottom: 380px;
+    left: 75px;
+  }
+  #links2 {
+    position: relative;
+    left: 140px;
+    bottom: 99px;
+  }
+  #links3 {
+    position: relative;
+    left: 280px;
+    bottom: 198px;
+  }
+  #links4 {
+    position: relative;
+    left: 420px;
+    bottom: 297px;
+  }
+  .langstr2 {
+    position: relative;
+    bottom: 140px;
+    right: 142px;
+  }
 }
