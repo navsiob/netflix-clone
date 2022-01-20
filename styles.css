@@ -10,6 +10,7 @@
   margin: 0px;
   color: white;
 }
+
 body {
   font-family: "netflixsans";
   background-image: url(/images/IN-en-20211220-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
@@ -18,7 +19,6 @@ body {
   background-position: 0 -44px;
   background-color: black;
   overflow-x: hidden;
-  height: 3859px;
 }
 #box {
   width: 100vw;
@@ -64,7 +64,6 @@ main {
   bottom: 39px;
   left: 1209px;
 }
-
 #Intro {
   max-width: 640px;
   margin-top: 137px;
@@ -260,7 +259,7 @@ footer {
   position: relative;
   bottom: 380px;
   left: 200px;
-  height: 320px;
+  height: 0;
 }
 footer a,
 footer p {
