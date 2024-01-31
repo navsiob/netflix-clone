@@ -1,9 +1,9 @@
-let a = document.getElementById("whatIsNetflix");
-let b = document.getElementById("howMuch");
-let c = document.getElementById("whereCan");
-let d = document.getElementById("howDo");
-let e = document.getElementById("whatCan");
-let f = document.getElementById("isNetflix");
+let a = document.getElementById("what-is");
+let b = document.getElementById("how-much");
+let c = document.getElementById("where-can");
+let d = document.getElementById("how-do");
+let e = document.getElementById("what-can");
+let f = document.getElementById("is-netflix");
 
 a.style.display = "none";
 b.style.display = "none";
