@@ -19,7 +19,7 @@
             <option value="https://www.netflix.com/in-hi/">हिन्दी</option>
           </select>
         </form>
-        <a href="https://www.netflix.com/login">Sign In</a>
+        <a href="https://www.netflix.com/login">Sign&nbsp;In</a>
       </div>
     </header>
     <main>
@@ -30,7 +30,7 @@
           Ready to watch? Enter your email to create or restart your membership.
         </label>
         <input id="email-input" type="email" placeholder="Email address" />
-        <button type="button">Get Started ></button>
+        <button type="button">Get&nbsp;Started&nbsp;></button>
       </form>
     </main>
     <div class="grey-box"></div>
@@ -40,8 +40,16 @@
         Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
         players and more.
       </p>
-      <img src="images/tv.png" alt="tv" />
-      <video id="tv-vedio" src="video/video-tv.m4v" autoplay loop muted></video>
+      <div class="video-image-pile">
+        <img src="images/tv.png" alt="tv" />
+        <video
+          id="tv-vedio"
+          src="video/video-tv.m4v"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
     </section>
     <div class="grey-box"></div>
     <section>
@@ -54,8 +62,10 @@
           src="images/boxshot.png"
           alt="Cover image of stranger things series"
         />
-        <p id="download-name">Stranger Things</p>
-        <p id="downloading-text">Downloading...</p>
+        <div>
+          <p id="download-name">Stranger Things</p>
+          <p id="downloading-text">Downloading...</p>
+        </div>
         <img id="downloading-gif" src="images/download-icon.gif" alt="" />
       </div>
     </section>
@@ -66,14 +76,16 @@
         Stream unlimited movies and TV shows on your phone, tablet, laptop, and
         TV.
       </p>
-      <img src="images/multiple-devices.png" alt="" />
-      <video
-        id="multiple-devices-video"
-        src="video/video-multiple-devices.m4v"
-        autoplay
-        loop
-        muted
-      ></video>
+      <div class="video-image-pile">
+        <img src="images/multiple-devices.png" alt="" />
+        <video
+          id="multiple-devices-video"
+          src="video/video-multiple-devices.m4v"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
     </section>
     <div class="grey-box"></div>
     <section>
